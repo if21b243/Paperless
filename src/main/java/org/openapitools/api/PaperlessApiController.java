@@ -4,6 +4,7 @@ package org.openapitools.api;
 import org.openapitools.services.dto.DocumentDTO;
 import org.openapitools.services.dto.okresponse.GetDocument200Response;
 import org.openapitools.services.dto.okresponse.GetDocuments200Response;
+
 import org.openapitools.services.impl.DocumentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
