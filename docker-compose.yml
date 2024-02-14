@@ -12,3 +12,12 @@ services:
       - "8080"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
+  nginx:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: paperless-ui
+    ports:
+      - "80:80"
+    expose:
+      - "80"
